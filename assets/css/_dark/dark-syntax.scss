@@ -85,14 +85,12 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  html:not([mode]), html[mode=dark] {
-    @include dark-scheme;
-  }
+html[mode=dark] {
+  @include dark-scheme;
 }
 
-@media (prefers-color-scheme: light) {
-  html[mode=dark] {
+@media (prefers-color-scheme: dark) {
+  html:not([mode]), html[mode=dark] {
     @include dark-scheme;
   }
 }

@@ -106,42 +106,40 @@
 } // dark-scheme
 
 
-@mixin light-mode-invisible {
+@mixin set-visible($light-display, $dark-display) {
   *[light-mode-invisible] {
-      display: none;
+      display: $light-display;
   }
-}
-
-@mixin dark-mode-invisible {
   *[dark-mode-invisible] {
-      display: none;
+      display: $dark-display;
   }
 }
 
-@media (prefers-color-scheme: light) {
-
-  html:not([mode]), html[mode=light] {
-    @include light-mode-invisible;
+@mixin toggle-visible($mode: "light") {
+  @if $mode == "light" {
+    @include set-visible(none, unset);
+  } @else {
+    @include set-visible(unset, none);
   }
+}
 
-  html[mode=dark] {
-    @include dark-scheme;
-    @include dark-mode-invisible;
-  }
+html:not([mode]), html[mode=light] {
+  @include toggle-visible("light");
+}
 
-} // light prefers
-
+html[mode=dark] {
+  @include dark-scheme;
+  @include toggle-visible("dark");
+}
 
 @media (prefers-color-scheme: dark) {
-
   html:not([mode]), html[mode=dark] {
     @include dark-scheme;
-    @include dark-mode-invisible;
+    @include toggle-visible("dark");
   }
 
   html[mode=light] {
-    @include light-mode-invisible;
+    @include toggle-visible("light");
   }
-
 } // dark prefers
 
