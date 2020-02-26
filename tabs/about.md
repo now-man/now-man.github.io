@@ -8,4 +8,7 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+**반갑습니다!**
+
+김남원(github id: now-man)이 운영하는 블로그입니다.
+문의가 있으시다면 won3011506@gmail.com으로 메일 주세요~
