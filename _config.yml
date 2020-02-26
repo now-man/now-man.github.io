@@ -13,9 +13,7 @@ title: 나우맨의 블로그                          # the main title
 tagline: Now-man's blog  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  김남원(now-man)이 만들어가는 블로그입니다. #논문_리뷰 #일상 #고찰 #스터디
 
 # Replace with your domain, e.g. 'https://username.github.io'
 url: 'https://now-man.github.io'
@@ -53,7 +51,7 @@ timezone: Asia/Seoul
 
 google_analytics:
   # Fill with your Google Analytics ID
-  id: ''
+  id: 'won3011506'
   # The Google Analytics pageviews switch.
   # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
   pv: false
