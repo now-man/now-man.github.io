@@ -13,7 +13,7 @@ title: 나우맨의 블로그                          # the main title
 tagline: Now-man's blog  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  김남원(now-man)이 만들어가는 블로그입니다. #논문_리뷰 #일상 #고찰 #스터디
+  now-man's blog. #science #review_paper #daily_life
 
 # Replace with your domain, e.g. 'https://username.github.io'
 url: 'https://now-man.github.io'
