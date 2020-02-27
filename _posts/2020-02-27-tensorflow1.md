@@ -1,6 +1,6 @@
 ---
 title: Tensorflow 실습 1
-date: 2020-02-27 13:34:00 +0900
+date: 2020-02-27 15:34:00 +0900
 categories: [Blogging, Programming]
 tags: [ai, ml, tensorflow]
 toc: true
@@ -8,7 +8,7 @@ sitemap:
   changefreq: daily
   priority: 1.0
 seo:
-  date_modified: 2020-02-27 13:34:00 +0900
+  date_modified: 2020-02-27 16:10:00 +0900
 ---
 tensorflow 실습 첫 번째
 
