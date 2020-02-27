@@ -18,7 +18,7 @@ tensorflow 실습 첫 번째
 
 &nbsp;&nbsp;&nbsp;&nbsp;Google colab을 이용해, 이전에 작성했던 [linear regression 관련 글](https://now-man.github.io/posts/ai2/)에서 살펴봤던 cost function 관련 코딩을 해봤습니다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(1,1), (2,2), (3,3) 총 3개의 값이 있다면, 쉽게 x=y 형태의 linear regression임을 알 수 있을 것입니다. $$h_{θ}(x) = θ_{0}+θ_{1}x$$에서
-$$θ_{1}$$ 값은 1, $$θ_{0}x$$ 값은 0이 됩니다. 가로축이 $$θ_{1}$$이고, 세로축이 cost function인 그래프가 있다면 $$θ_{1}$$의 최솟값이 1이되는 형태의 그래프가 나올 것입니다.
+$$θ_{1}$$ 값은 1, $$θ_{0}x$$ 값은 0이 됩니다. 가로축이 $$θ_{1}$$이고, 세로축이 cost function인 그래프가 있다면 $$θ_{1}$$의 최솟값이 1이 되는 형태의 그래프가 나올 것입니다.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;코드는 아래와 같습니다. 저는 google colab을 사용해서 plot을 바로 다운받는 형태로 작성했습니다.
@@ -60,7 +60,7 @@ plt.savefig('test.png', dpi = 300)
 files.download('test.png')
 ```
 ![tansex1](/images/posts/2020-02-27-tensorflow1/tensex1.png){:width="65%"}{: .center}
-*<center>위와 같이 최솟값이 1이되는 그래프가 잘 나오는 것을 확인했습니다!</center>*
+*<center>위와 같이 최솟값이 1이 되는 그래프가 잘 나오는 것을 확인했습니다!</center>*
 
 
 <script type="text/x-mathjax-config">
