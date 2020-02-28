@@ -66,12 +66,12 @@ body {
     height: 20%;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: #ffffffcf;
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: #fec8c9;
       }
     }
   }
@@ -713,7 +713,7 @@ a {
     @extend %link-color;
   }
   .post-preview & {
-    @extend %link-color;
+    color: var(--link-color, #7665ac);
     &:hover {
       @extend %link-hover;
     }
@@ -723,7 +723,7 @@ a {
     @extend %no-bottom-border;
   }
   #tags & {
-    @extend %link-color;
+    color: var(--link-color, #56cba9);
   }
   #page-category & {
     @extend %link-color;
@@ -808,8 +808,8 @@ table {
   font-size: 0.85rem;
   word-spacing: 1px;
   a {
-    color: var(--link-color, #2a408e);
-    border-bottom: 1px dotted var(--link-underline-color, #c2c6cc);
+    color: var(--link-color, #A593E0);
+    border-bottom: 1px dotted var(--link-underline-color, #A593E0);
     &:not(:last-child) {
       margin-right: 2px;
     }
@@ -827,7 +827,7 @@ table {
   word-wrap: break-word;
   a {
     @extend %link-color;
-    border-bottom: 1px dotted var(--link-underline-color, #c2c6cc);
+    border-bottom: 1px dotted var(--link-underline-color, #A593E0);
     &:hover {
       @extend %link-hover;
     }

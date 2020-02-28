@@ -50,11 +50,11 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
 
   .btn {
     @include btn-post-nav;
-    color: var(--link-color, #2a408e);
+    color: var(--link-color, #A593E0);
     &:hover {
-      background: #2a408e;
+      background: #A593E0;
       color: #fff;
-      border-color: #2a408e;
+      border-color: #A593E0;
     }
     &.disabled {
       @include btn-post-nav;
@@ -214,7 +214,7 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
 
   a:hover,
   i:hover {
-    @include btn-sharing-color(#2a408e, true);
+    @include btn-sharing-color(#56cba9, true);
     text-decoration: none;
   }
 
