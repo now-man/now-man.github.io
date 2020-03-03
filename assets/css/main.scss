@@ -23,11 +23,11 @@ html {
 }
 
 body {
-  line-height: 1.75rem;
+  line-height: 200%;
   background: var(--main-wrapper-bg, #fafafa);
   color: var(--text-color, #212529);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'NanumGothic', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
 /*--- sidebar layout ---*/
