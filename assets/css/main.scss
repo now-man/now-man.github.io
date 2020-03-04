@@ -8,13 +8,18 @@
 * MIT Licensed
 */
 
+
+
 @import "_fonts";
 @import "_dark/dark-main";
 @import "_module";
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap');
 
 html, body {
   height: 100%;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* Solved jumping scrollbar */
@@ -27,7 +32,7 @@ body {
   background: var(--main-wrapper-bg, #fafafa);
   color: var(--text-color, #212529);
   -webkit-font-smoothing: antialiased;
-  font-family: 'NanumGothic', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Nanum Gothic', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
 /*--- sidebar layout ---*/
@@ -61,6 +66,8 @@ body {
     font-size: .95rem;
     font-weight: 600;
     letter-spacing: 1px;
+	font-size: 16px;
+	font-family: 'Source Sans Pro';
   }
   .nav-item {
     height: 20%;
@@ -119,35 +126,35 @@ body {
 #sidebar ul > li.active:nth-child(1) ~ li:last-child::after,
 #sidebar ul > li.nav-item:nth-child(1):hover ~ li:last-child::after {
   // top: calc(-400% + (26px / 2));
-  top: -195px;
+  top: -187px;
   visibility: visible;
 }
 
 #sidebar ul > li.active:nth-child(2) ~ li:last-child::after,
 #sidebar ul > li.nav-item:nth-child(2):hover ~ li:last-child::after {
   // top: calc(-300% + (26px / 2));
-  top: -143px;
+  top: -137px;
   visibility: visible;
 }
 
 #sidebar ul > li.active:nth-child(3) ~ li:last-child::after,
 #sidebar ul > li.nav-item:nth-child(3):hover ~ li:last-child::after {
   // top: calc(-200% + (26px / 2));
-  top:  -91px;
+  top:  -86px;
   visibility: visible;
 }
 
 #sidebar ul > li.active:nth-child(4) ~ li:last-child::after,
 #sidebar ul > li.nav-item:nth-child(4):hover ~ li:last-child::after {
   // top: calc(-100% + (26px / 2));
-  top: -39px;
+  top: -37px;
   visibility: visible;
 }
 
 #sidebar ul > li.active:nth-child(5):last-child::after,
 #sidebar ul > li.nav-item:nth-child(5):last-child:hover::after {
   // top: calc(26px / 2);
-  top: 13px;
+  top: 10px;
   visibility: visible;
 }
 
@@ -225,7 +232,8 @@ body {
   text-align: center;
   a {
     color: #FFFFF3;
-    font-weight: 900;
+	font-family: 'Noto Serif KR';
+    font-weight: 500;
     font-size: 1.5rem;
     letter-spacing: .5px;
     &:hover {

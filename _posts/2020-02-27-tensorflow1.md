@@ -59,6 +59,8 @@ plt.ylabel('cost')
 plt.savefig('test.png', dpi = 300)
 files.download('test.png')
 ```
+
+
 ![tansex1](/images/posts/2020-02-27-tensorflow1/tensex1.png){:width="65%"}{: .center}
 *<center>위와 같이 최솟값이 1이 되는 그래프가 잘 나오는 것을 확인했습니다!</center>*
 
