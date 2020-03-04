@@ -130,6 +130,7 @@ html:not([mode]), html[mode=light] {
 html[mode=dark] {
   @include dark-scheme;
   @include toggle-visible("dark");
+  transition:1 ease;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -140,6 +141,7 @@ html[mode=dark] {
 
   html[mode=light] {
     @include toggle-visible("light");
+	transition:1 ease;
   }
 } // dark prefers
 
